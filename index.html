@@ -63,34 +63,35 @@
 
         <!-- ======= Reseach Items Section ======= -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
         <tr onmouseout="spot_stop()" onmouseover="spot_start()" >
           <td style="padding:20px;width:30%;vertical-align:middle">
             <div class="one">
-              <div class="two" id='images/GuideDog2.png' style="width:100%; height:100%; max-width:100%">
-                <img src='images/GuideDog2.png' style="width:100%; height:100%; max-width:100%">
-
+              <div class="two" id='images/spot.png' style="width:100%; height:100%; max-width:100%">
+                <img src='images/spot.png' style="width:100%; height:100%; max-width:100%">
               </div>
-              <img src='images/GuideDog2.gif' style="width:100%; height:100%; max-width:100%">
+              <img src='images/spot.gif' style="width:100%; height:100%; max-width:100%">
             </div>
             <script type="text/javascript">
               function spot_start() {
-                document.getElementById('images/GuideDog2.png').style.opacity = "0";
+                document.getElementById('images/spot.png').style.opacity = "0";
               }
               function spot_stop() {
-                document.getElementById('images/GuideDog2.png').style.opacity = "1";
+                document.getElementById('images/spot.png').style.opacity = "1";
               }
               spot_stop()
             </script>
           </td>
           <td style="padding:20px;width:70%;vertical-align:middle">
-            <papertitle>Out-of-distribution detection for robust navigation with learned controllers </papertitle>
+            <papertitle>Out-of-distribution detection for robust navigation and planning with learned controllers </papertitle>
             <p style="margin:10px 0 5px 0px;font-size: 15px;">
-              Utilized VAE structure within imitation learning to develop a controller which can handle both multi-behavior navigation
-              and anomaly detection. (More in progress)
+              Applied a controller capable of multi-behavior navigation and anomaly detection and
+              designed a behavior-based planning and recovery framework for visual navigation. (More in progress)</br></br>
+              The video shows some preliminary results in the context of abrupt observation alterations and instances
+              where the pathway is obstructed by a door with a simple backtracking recovery strategy.
             </p>
           </td>
         </tr>
-
 
         <tr onmouseout="bulkcarrier_stop()" onmouseover="bulkcarrier_start()" >
           <td style="padding:20px;width:30%;vertical-align:middle">
