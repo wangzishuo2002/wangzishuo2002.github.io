@@ -83,12 +83,16 @@
             </script>
           </td>
           <td style="padding:20px;width:70%;vertical-align:middle">
-            <papertitle>Out-of-distribution detection for robust navigation and planning with learned controllers </papertitle>
+            <papertitle>Failure recovery framework for robust navigation with learned controllers </papertitle>
             <p style="margin:10px 0 5px 0px;font-size: 15px;">
-              Applied a controller capable of multi-behavior navigation and anomaly detection and
-              designed a behavior-based planning and recovery framework for visual navigation. (More in progress)</br></br>
+              Designed a comprehensive failure recovery framework consisting of perturb and ask for help, that empowers
+              learned controllers to 1) sense anomalous situations, 2) recover themselves,
+              3) if they cannot recover, fail gracefully. (More in progress)</br></br>
               The video shows some preliminary results in the context of abrupt observation alterations and instances
-              where the pathway is obstructed by a door with a simple backtracking recovery strategy.
+              where the pathway is obstructed by a door. The recovery is guided in two ways:
+              1) use anomaly metric to measure recovery success,
+              2) backpropagate the anomaly metric then use Grad-CAM to obtain an anomaly localisation heatmap to
+              guide the selection of recovery actions.
             </p>
           </td>
         </tr>
