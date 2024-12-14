@@ -189,7 +189,7 @@ span.highlight {
 
 img {
   border: 0px solid #555;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .clickable-text {
