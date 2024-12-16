@@ -125,14 +125,14 @@ ch_name {
   font-size: 37px;
 }
 .one {
-  width: 360px;
-  height: 240px;
+  width: 256px;
+  height: 144px;
   position: relative;
 }
 
 .two {
-  width: 360px;
-  height: 240px;
+  width: 256px;
+  height: 144px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
